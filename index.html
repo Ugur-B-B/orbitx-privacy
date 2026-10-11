@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OrbitX Privacy Policy</title>
+<style>
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:46rem;margin:2rem auto;padding:0 1rem;line-height:1.55;color:#1b1f23}
+  h1,h2{line-height:1.25} table{border-collapse:collapse;width:100%} td,th{border:1px solid #c8ccd0;padding:.45rem .6rem;text-align:left;vertical-align:top}
+  code{background:#eef0f2;padding:0 .25rem;border-radius:3px}
+</style>
+</head>
+<body>
+<h1>OrbitX Privacy Policy</h1>
+<p><strong>Applies to:</strong> OrbitX for Android (package <code>com.orbitx.browser</code>), version 1.0.0 and later.<br>
+<strong>Last updated:</strong> October 11, 2026<br>
+<strong>Developer:</strong> Uğur Berk Bozoğlu &middot; <strong>Contact:</strong> <a href="mailto:berkbozoglu.dev@gmail.com">berkbozoglu.dev@gmail.com</a></p>
+
+<h2>In short</h2>
+<p>OrbitX is a web browser. It has <strong>no accounts, no analytics, no advertising, no crash-reporting service and no OrbitX server</strong>. We do not collect, receive, sell or share your personal data. Your browsing data, bookmarks, settings and saved passwords stay on your phone.</p>
+
+<h2>What stays on your device</h2>
+<ul>
+  <li><strong>Browsing data:</strong> history, open tabs, cookies and site storage, downloads list, bookmarks, site permission choices and settings. You can delete browsing data in <em>Settings &rarr; Privacy</em>. Private tabs are not written to disk.</li>
+  <li><strong>Saved passwords (optional):</strong> if you choose to save a password, it is encrypted with an AES-256-GCM key kept in the Android Keystore and stored in the app's private storage. Viewing, copying, editing or exporting a password requires your fingerprint, face or screen lock. Passwords are never sent anywhere. Private tabs never offer to save or fill passwords. The password screens block screenshots.</li>
+  <li><strong>Backups you create:</strong> an export file is encrypted with a passphrase you choose (PBKDF2-HMAC-SHA256, AES-256-GCM). It is created only when you ask, and you decide where it goes. OrbitX does not upload it, and the app opts out of Android cloud backup and device-to-device transfer.</li>
+</ul>
+
+<h2>Network requests OrbitX makes</h2>
+<p>Other than loading the web pages you open, OrbitX connects to the servers below. None of these requests include your browsing history, passwords or an identifier; the servers can see your IP address and standard request headers, as with any web request.</p>
+<table>
+<tr><th>Request</th><th>Server</th><th>When</th></tr>
+<tr><td>Ad and tracker blocking lists, and the scriptlet resources file</td><td>The list publishers (for example easylist.to, easylist-downloads.adblockplus.org, ublockorigin.github.io, pgl.yoyo.org, filters.adtidy.org, raw.githubusercontent.com) and the OrbitX resources repository on github.com</td><td>While ad blocking is switched on (the default): at app start and when a list is due, and when you tap &ldquo;Update now&rdquo;. You can switch ad blocking off in Settings. The lists are used on your phone; no page you visit is reported to anyone.</td></tr>
+<tr><td>News headlines (RSS)</td><td>Feed addresses you add yourself</td><td>Only after you turn on the news card, and only for the sources you added.</td></tr>
+<tr><td>Page translation</td><td>Google Translate (translate.google.com)</td><td>Only when you choose &ldquo;Translate&rdquo; after confirming once. The page address is sent to Google, which has its own privacy policy.</td></tr>
+<tr><td>Search suggestions</td><td>Your chosen search engine</td><td>Off by default. If you turn it on (after a confirmation), what you type in the address bar is sent to the search engine. Text that looks like a web address is not sent.</td></tr>
+<tr><td>Searches</td><td>Your chosen search engine (DuckDuckGo, Startpage, Brave Search or Google)</td><td>When you run a search.</td></tr>
+</table>
+<p>Websites you visit can use cookies and other technologies; OrbitX blocks many trackers and third-party cookies by default and sends the Global Privacy Control signal. Websites and search engines have their own privacy policies.</p>
+
+<h2>Permissions</h2>
+<p>OrbitX asks Android for location, camera or microphone access only when a website requests it and you allow it in OrbitX&rsquo;s own prompt first. The data goes to that website, as you directed, not to us. You can review or reset these choices in <em>Settings &rarr; Site permissions</em>.</p>
+
+<h2>Children</h2>
+<p>OrbitX is a general-purpose browser and is not directed to children under 13.</p>
+
+<h2>Open-source components</h2>
+<p>The list of open-source software and filter lists, with their licenses and links to their sources, is in <em>Settings &rarr; About &rarr; Credits</em>.</p>
+
+<h2>Your choices and deleting data</h2>
+<p>There is no account to delete. Everything OrbitX stores is on your phone: clear it in <em>Settings &rarr; Privacy</em>, delete saved passwords one by one in <em>Settings &rarr; Passwords</em>, or uninstall the app to remove all of it. Backup files you exported are ordinary files that you manage yourself.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be published at this address with a new date, and significant changes will be described in the app&rsquo;s release notes.</p>
+
+<h2>Contact</h2>
+<p>Questions about privacy: <a href="mailto:berkbozoglu.dev@gmail.com">berkbozoglu.dev@gmail.com</a></p>
+</body>
+</html>
